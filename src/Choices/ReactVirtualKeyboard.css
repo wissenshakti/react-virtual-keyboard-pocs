@@ -1,0 +1,39 @@
+.virtual-keyboard-default-button{
+    border: none;
+    background-color: white;
+    text-align: center;
+    margin:5px;
+
+    
+}
+
+.virtual-keyboard-default-container{
+    border: 1px solid ;
+}
+
+.virtual-custom-keyboard-keyset{
+    border: 1px solid #666;
+    background-color: #333;
+
+}
+.ui-keyboard-button {
+    height: 2em;
+    min-width: 2em;
+    margin: .1em;
+    cursor: pointer;
+    overflow: hidden;
+    line-height: 2em;
+    -moz-user-focus: ignore;
+}
+.virtual-ui-state-default, .virtual-ui-widget-content .virtual-ui-state-default, .virtual-ui-widget-header .virtual-ui-state-default, .virtual-ui-button, html .virtual-ui-button.virtual-ui-state-disabled:hover, html .virtual-ui-button.virtual-ui-state-disabled:active {
+    border: 1px solid #666;
+    background: #555 url(./ui-bg_glass_20_555555_1x400.png) 50% 50% repeat-x;
+    font-weight: bold;
+    color: #eee;
+}
+.virtual-custom-keyboard-keyset .ui-keyboard-shift{
+    border: 1px solid #ffaf0f;
+    background: #f58400 url(./ui-bg_inset-soft_30_f58400_1x100.png) 50% 50% repeat-x;
+    font-weight: bold;
+    color: #fff;
+}
